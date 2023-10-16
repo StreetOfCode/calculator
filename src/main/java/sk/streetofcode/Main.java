@@ -15,13 +15,14 @@ public class Main {
             System.out.println("Write number, then type of operation (+, -, *, /) and then write a number again");
 
             final double left, right;
-            final char operator;
+            final ArithmeticOperator operator;
 
             try {
                 left = scanner.nextDouble();
-                operator = scanner.next().charAt(0);
+                final String line = scanner.next();
+                operator = ArithmeticOperator.getFromSymbol(line);
                 right = scanner.nextDouble();
-            } catch (InputMismatchException e) {
+            } catch (InputMismatchException | IllegalArgumentException e) {
                 System.out.println("Invalid input");
                 scanner.nextLine();
                 continue;

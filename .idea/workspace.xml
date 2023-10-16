@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c106fc03-7dca-4f5a-8fd1-4fc5e36a6287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/Operands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/calculator/AbstractCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/calculator/AdvancedCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/calculator/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/calculator/CalculatorHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/operation/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/operation/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/operation/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/operation/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/operation/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/ArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sk/streetofcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sk/streetofcode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -47,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sk.streetofcode.Main" />
@@ -78,5 +65,15 @@
       <updated>1697450340104</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
