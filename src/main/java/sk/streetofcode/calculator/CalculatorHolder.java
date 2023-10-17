@@ -1,6 +1,7 @@
 package sk.streetofcode.calculator;
 
 import sk.streetofcode.ArithmeticOperator;
+import sk.streetofcode.Operands;
 import sk.streetofcode.operation.*;
 
 import java.util.HashMap;
@@ -28,7 +29,12 @@ public class CalculatorHolder {
         this.advancedCalculator = new AdvancedCalculator("AdvancedCalculator", advancedCalculatorOperationMap);
     }
 
-    public AbstractCalculator getSuitableCalculator(ArithmeticOperator operator) {
+    public double calculateResult(Operands operands, ArithmeticOperator operator) {
+        final AbstractCalculator calculator = this.getSuitableCalculator(operator);
+        return calculator.calculate(operands, operator);
+    }
+
+    private AbstractCalculator getSuitableCalculator(ArithmeticOperator operator) {
         switch (operator) {
             case ADDITION, SUBTRACTION -> {
                 return this.basicCalculator;

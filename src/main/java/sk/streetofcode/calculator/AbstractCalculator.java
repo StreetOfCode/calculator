@@ -2,6 +2,7 @@ package sk.streetofcode.calculator;
 
 import sk.streetofcode.ArithmeticOperator;
 import sk.streetofcode.Operands;
+
 import sk.streetofcode.operation.Operation;
 
 import java.util.Map;

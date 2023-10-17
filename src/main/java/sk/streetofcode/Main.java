@@ -1,6 +1,5 @@
 package sk.streetofcode;
 
-import sk.streetofcode.calculator.AbstractCalculator;
 import sk.streetofcode.calculator.CalculatorHolder;
 
 import java.util.InputMismatchException;
@@ -29,7 +28,7 @@ public class Main {
             }
 
             final Operands operands = new Operands(left, right);
-            calculatorHolder.getSuitableCalculator(operator).calculate(operands, operator);
+            calculatorHolder.calculateResult(operands, operator);
         } while (true);
     }
 }
